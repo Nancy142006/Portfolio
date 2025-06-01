@@ -4,13 +4,27 @@ const PERSONAL_DATA = {
   Quote: "Where Code Meets Creativity",
   status: "Currently working as an Intern",
 
-  education: {
-    degree: "Bachelor's of Computer Application",
-    year: "Final Year (3rd Year)",
-    // institution: "[Add your college/university name here]",
-    // gpa: "[Optional: GPA or percentage]",
-    // achievements: ["...", "..."]
-  },
+  education: [
+    {
+      degree: "Secondary Education",
+      year: "2020-2021",
+      institution: "Army public School Yol Cantt(HP)",
+      CGPA: "85%",
+    },
+    {
+      degree: "Senior Secondary Education",
+      year: "2022-2023",
+      institution: "Army public School Yol Cantt(HP)",
+      CGPA: "72%",
+    },
+
+    {
+      degree: "Bachelor's of Computer Application",
+      year: "Final Year (3rd Year)",
+      institution: "Government Degree College Nagrota Bagwan (HP)",
+      CGPA: "7.87",
+    },
+  ],
 
   contact: {
     email: "nancy14kapoor2006@gmail.com",
