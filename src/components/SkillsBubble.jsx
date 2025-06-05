@@ -1,11 +1,18 @@
 import React from "react";
-import photo from "../assets/photo.jpg"
-const SkillsBubble = ({ skills}) => {
+import photo from "../assets/photo.jpg";
+
+const SkillsBubble = ({ skills }) => {
   const allSkills = Object.values(skills).flat();
 
   return (
-    <section id="skills" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 overflow-hidden">
-      <div className="relative z-10 flex flex-col items-center text-center">
+    <section
+      id="skills"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 overflow-hidden"
+    >
+      <div className="relative z-10 flex flex-col items-center text-center space-y-6">
+        <h2 className="text-4xl font-bold text-cyan-400 drop-shadow-lg">
+          Skill Set
+        </h2>
         <div className="w-[11rem] h-[11rem] rounded-full overflow-hidden border-4 border-white shadow-lg">
           <img
             src={photo}
@@ -23,6 +30,7 @@ const SkillsBubble = ({ skills}) => {
         }
       `}</style>
 
+      {/* Floating Skills */}
       {allSkills.map((skill, index) => (
         <div
           key={index}
