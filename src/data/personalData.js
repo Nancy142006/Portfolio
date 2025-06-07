@@ -1,4 +1,3 @@
-import { progress } from "framer-motion";
 
 const PERSONAL_DATA = {
   name: "Nancy",
