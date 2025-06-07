@@ -1,3 +1,5 @@
+import { progress } from "framer-motion";
+
 const PERSONAL_DATA = {
   name: "Nancy",
   title: "An aspiring Web Developer",
@@ -95,30 +97,33 @@ const PERSONAL_DATA = {
   // PROJECTS
   projects: [
     {
-      name: "Valentine-week",
+      name: "Digital-Wallet",
       description:
-        "Full-stack MERN application with user authentication and payment integration",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
+        "A secure MERN-stack-based digital wallet application that allows users to register, log in, send/receive money, and manage profiles. Features include email verification, OTP-based transactions, and profile image uploads using Multer.",
+      tech: ["MongoDB", "React", "Express", "Node.js"],
       challenges:
-        "Implemented secure payment processing and real-time inventory management",
-      impact: "Learned complex state management and API integration",
+        "Implementing OTP-secured transactions, Managing secure file uploads and email notifications, Handling real-time form validation and state management",
+      impact:
+        "Enhanced user experience with strong security practices, real-time interactivity, and seamless money transfer features, demonstrating full-stack capabilities and attention to user data protection.",
+      link: "https://github.com/Nancy142006/digitalWallet",
     },
     {
-      name: "Task Management App",
+      name: "Valentine-Week",
       description:
-        "Collaborative project management tool with real-time updates",
-      tech: ["React", "Socket.io", "Node.js", "MongoDB"],
+        "A creative multi-page React application celebrating Valentine’s Week, with interactive navigation, themed images/GIFs for each day, background music, and a visually engaging UI using React Router.",
+      tech: ["React.js", "React Router", "HTML5", "JavaScript"],
       challenges:
-        "Built real-time collaboration features and drag-drop interface",
-      impact: "Mastered WebSocket communication and complex UI interactions",
+        "Seamless audio integration across routes, Manual handling of daily content without relying on system dates, Crafting a responsive and visually appealing UI",
+      impact:
+        "Enhanced front-end skills by blending creativity with technical implementation, delivering an engaging user experience through dynamic content and modern design.",
+      link: "https://github.com/Nancy142006/Valentine-week-Project",
     },
     {
-      name: "Weather Dashboard",
+      name: "Study-Planner",
       description:
-        "Interactive weather app with data visualization and forecasting",
-      tech: ["React", "D3.js", "Weather API", "Chart.js"],
-      challenges: "Created responsive data visualizations and API integrations",
-      impact: "Enhanced skills in data visualization and third-party API usage",
+        "A productivity-focused React application that helps users plan and manage their study schedule efficiently. Features include task organization, light/dark mode toggle, and a responsive UI.",
+      progress: "Currently working upon",
+      link: "https://github.com/Nancy142006/studyPlanner",
     },
   ],
 
