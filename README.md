@@ -37,24 +37,4 @@ A modern, responsive, and animated developer portfolio built using **React**, **
 | Form Backend   | Formspree           |
 | Visualization  | D3.js (referenced in Footer) |
 
----
 
-## 📁 Folder Structure
-
-src/
-├── components/
-│ ├── Navbar.jsx 
-│ ├── Hero.jsx
-│ ├── Journey.jsx 
-│ ├── Education.jsx 
-│ ├── SkillsBubble.jsx
-│ ├── Projects.jsx 
-│ ├── Story.jsx
-│ ├── Contact.jsx
-│ ├── Footer.jsx
-├── data/
-│ └── personalData.js
-├── assets/
-│ └── photo.jpg
-├── pages/
-│ └── Portfolio.jsx 
