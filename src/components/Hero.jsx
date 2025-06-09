@@ -92,7 +92,7 @@ const Hero = ({ personalData, scrollToSection }) => {
 
       <div className="max-w-4xl mx-auto px-4 text-center z-10">
         <div className="mb-8">
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
             {personalData.name}
           </h1>
           <h2 className="text-2xl text-gray-300 mb-2">{personalData.title}</h2>
@@ -110,7 +110,7 @@ const Hero = ({ personalData, scrollToSection }) => {
               nancy-developer.js
             </span>
           </div>
-          <pre className="text-left text-green-400 font-mono text-sm leading-relaxed">
+          <pre className="text-left text-green-400 font-mono text-sm leading-relaxed overflow-x-auto whitespace-pre-wrap">
             {typedText}
             <span className="animate-pulse">|</span>
           </pre>
