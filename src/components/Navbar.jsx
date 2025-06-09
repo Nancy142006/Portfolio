@@ -14,7 +14,7 @@ const Navbar = ({ scrollToSection, name }) => {
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-bold text-cyan-400">{name}</h1>
-          <div className="flex space-x-6">
+          <div className="hidden md:flex space-x-6">
             {sections.map((section) => (
               <button
                 key={section}
